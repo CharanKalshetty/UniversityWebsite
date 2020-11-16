@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="BMSIT Website" content="This is a university website">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website/Register</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><img src="Images/UniversityLogo.png"></a>
+			<a href="index.html" class="UniName"><h1>BMS</h1> <h2>Institute of Technology & Management</h2></a>
+			<a class="UniAdd">P.B.No. 6443, Doddaballapura Main Road, Avalahalli, Yelahanka, Bangalore, Karnataka, India, Pin Code : 560064</a>
+		</header>
+		<nav class="navbar">
+			<ul>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<main>
+			<aside>
+				<h3>How to Register</h3>
+					<p>Please fill the form in the following form and submit.</p>
+					<p>We will be sending you a mail to your provided email id.</p>
+					<p>The mail will contain all the details on the university and course you have opted for. You will also be provided with an unique registration id. You will have to come the University to complete your registration. The id provided to you will be used to recognise your registration.</p>
+			</aside>
+			<section>
+				<h3 class="Reg">Registeration Form</h3>
+				<form>
+					<div id="errormsg"></div>
+					<label>Name: </label><br/>
+					<input id="name" type="text" placeholder="Enter your name" required>	
+					<br/><br/>
+					<label>Email Id: </label><br/>
+					<input id="emailid" type="email" placeholder="Enter your email id" required>
+					<br/><br/>
+					<label for="course">Cource</label><br/>
+					<select id="course" required>
+						<option selected disabled hidden>Select a course</option>
+						<option value="Computer Science">Computer Science</option>
+						<option value="Electrical">Electrical</option>
+						<option value="Mechanical">Mechanical</option>
+					</select>
+					<br/><br/>
+					<input id="regsub" type="submit" value="Submit">
+				</form>
+			</section>
+		</main>
+		<br/><br/>
+		<footer>
+			<ul>
+				<li><a target="_blank" href="https:/www.facebook.com" class="fa fa-facebook"></a></li>
+				<li><a target="_blank" href="https:/www.twitter.com" class="fa fa-twitter"></a></li>
+				<li><a target="_blank" href="https:/www.instagram.com" class="fa fa-instagram"></a></li>
+				<li><a id="mail" href="" class="fa fa-envelope"></a></li>
+			</ul>
+			<a>&copy;Copyrights Reserved</a>
+		</footer>
+		<script type="text/javascript" src="JS/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="BMSIT Website" content="This is a university website">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website/Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><img src="Images/UniversityLogo.png"></a>
+			<a href="index.html" class="UniName"><h1>BMS</h1> <h2>Institute of Technology & Management</h2></a>
+			<a class="UniAdd">P.B.No. 6443, Doddaballapura Main Road, Avalahalli, Yelahanka, Bangalore, Karnataka, India, Pin Code : 560064</a>
+		</header>
+		<nav class="navbar">
+			<ul>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
+				<h3>Contact Us</h3>
+				<form>
+					<div id="errormsg"></div>
+					<label>Name: </label><br/>
+					<input id="name" type="text" placeholder="Enter your name" required>	
+					<br/><br/>
+					<label>Email Id: </label><br/>
+					<input id="emailid" type="email" placeholder="Enter your email id" required>
+					<br/><br/>
+					<label>Issue:</label><br/>
+					<textarea  id="txtbox" placeholder="Kindly mention your issue here" required></textarea>
+					<br/><br/>
+					<input id="contsub" type="submit" value="Submit">
+				</form>
+			</section>
+		</main>
+		<br/>
+		<footer>
+			<ul>
+				<li><a target="_blank" href="https:/www.facebook.com" class="fa fa-facebook"></a></li>
+				<li><a target="_blank" href="https:/www.twitter.com" class="fa fa-twitter"></a></li>
+				<li><a target="_blank" href="https:/www.instagram.com" class="fa fa-instagram"></a></li>
+				<li><a id="mail" href="" class="fa fa-envelope"></a></li>
+			</ul>
+			<a>&copy;Copyrights Reserved</a>
+		</footer>
+		<script type="text/javascript" src="JS/script.js"></script>
+	</body>
+</html>
